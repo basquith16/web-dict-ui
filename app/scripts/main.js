@@ -47,7 +47,6 @@ $(document).ready(function() {
       }, 1000);
     }).fail(handleAJAXError);
   })
-  const TEST_URL = 'http://word-dict.herokuapp.com/words.json';
 
   $('.word-search-form').on('submit', function(event) {
     event.preventDefault();
